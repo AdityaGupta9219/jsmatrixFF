@@ -3,3 +3,4 @@
 <p>java.js and js.html for bulb logic</p> # bulb ON and OFF
 <p>index.html ,style.css, clock.js</p> # this is "Analog clock"
 ## by Adii
+#cricket match# (select => bat,ball,wicket)
