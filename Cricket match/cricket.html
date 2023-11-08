@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cricket game</title>
+</head>
+<body>
+    <main>
+    <h1>Cricket game</h1>
+    <h2>click on <em>BAT,BALL,WICKET</em></h2> <br>
+    <button onclick="let rannum = Math.random()*3;
+    if(rannum>2){
+        alert(`user select bat and computer select wicket computer won the match`);
+    }
+    else if(rannum>1){
+        alert(`user select bat and computer select ball user won the match`);
+    }
+    else {
+        alert(`tie match both are same`);
+    }" class="bat" >BAT</button> <br>
+    <button onclick="let rannum = Math.random()*3;
+    if(rannum>2){
+        alert(`user select ball and computer select wicket user won the match`);
+    }
+    else if(rannum>1){  
+        alert(`user select ball and computer select ball user tie`);
+    }
+    else {
+        alert(`user select ball and computer select bat computer won the match`);
+    }"  class="ball" >BALL</button> <br>
+    <button onclick="let rannum = Math.random()*3;
+    if(rannum>2){
+        alert(`user select wicket and computer select wicket 'tie'`);
+    }
+    else if(rannum>1){
+        alert(`user select wicket and computer select ball computer won the match`);
+    }
+    else {
+        alert(`user select wicket and computer select bat tie match both are same`);
+    }" class="wicket" >WICKET</button>
+    <p></p>
+    </main>
+    <script>
+        
+    </script>
+    
+</body>
+</html>
